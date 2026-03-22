@@ -1,4 +1,6 @@
 1 hour 36 mins:
-did html till #project section and added basic css layout and colours for refrence. will make it look bettter at the end since I didn't choose a palette yet
-
-1 hr 36 mins - 
+-did html till #project section and added basic css layout and colours for refrence. will make it look bettter at the end since I didn't choose a palette yet
+- also, in the html, there are place holders for the links in #contact section and for all the images i.e. icons,pfp,project pic
+  
+1 hr 36 mins - 2 hr 44 mins:
+- done with basic css for all sections, now experminenting with colour palletes which might take longer than expected...
