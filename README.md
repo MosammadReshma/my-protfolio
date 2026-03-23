@@ -4,3 +4,9 @@
   
 1 hr 36 mins - 2 hr 44 mins:
 - done with basic css for all sections, now experminenting with colour palletes which might take longer than expected...
+
+2 hr 44 mins - 4 hr 30 mins:
+- finally chose a colour palette and applied it to the whole website
+- added some animations like, moving buttons and texts
+- added the links for the #contact section
+- added desc for the #project section  
