@@ -11,3 +11,9 @@
 - added the links for the #contact section
 - added desc for the #project section  
 - drew the matcing icons for the #contact section, not done with it though
+
+ 4 hr 30 mins - 5 hr 29 mins:
+ - enhanced css further and experimented colours and effects
+ - added picture in the #projects
+ - fixed bugs
+ - added links to #projects
