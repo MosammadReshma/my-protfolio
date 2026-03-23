@@ -10,3 +10,4 @@
 - added some animations like, moving buttons and texts
 - added the links for the #contact section
 - added desc for the #project section  
+- drew the matcing icons for the #contact section, not done with it though
