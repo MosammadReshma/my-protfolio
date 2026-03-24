@@ -1,18 +1,297 @@
-body {
-    background:linear-gradient(to right, #ebc08c, #811c1c);
+section {
+    padding: 200px 20px;
 }
-#home {
-    margin-right: 20px;
+
+.home-content {
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.home-content {
+    display: flex;
+    gap: 190px;
+}
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+.profile-pic {
+    width: 200px;    
+    height: 200px;
+    border-radius: 500px;
+}
+.btn {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 145px;
+    margin-top: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    border: solid 1px #D9B991;
+    font-size: 16px;
+    text-align: center;
+}
+.home-content p {
+    font-size: 19px;
+    font-family: 'Gill Sans MT',sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.home-content h1 {
+    font-size: 46px;
+    font-family: 'playfair',serif;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.project-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    padding: 50px;
+    border-radius: 10px;
+    width: 300px;
+    height:300px;
+    gap: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
-#profile-pic {
-    width: 200px;
+.project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.project-item p {
+    font-size: 16px;
+    text-align: center;
+}
+.live-btn { 
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 7px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.projects h2 {
+    font-family: 'playfair',serif;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.skills-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 10px;
+    width: 300px;
     height: 200px;
+    gap: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.skills h2 {
+    font-family: 'playfair',serif;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 100px;
+}
+.skills-set h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.skills-set p {
+    font-size: 16px;
+    text-align: center;
+}
+.contact h2 {
+    font-family: 'playfair',serif;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 100px;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.skill-icon{
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    margin-bottom: 20px;
-    left: 50%;
+}
+.contact-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+.contact-image:hover {
+    transform: scale(1.01) translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+html{
+    scroll-behavior: smooth;
+}
+.about-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.about-me {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 10px;
+    width: 300px;
+    height:300px;
+    gap: 10px;
+    padding: 50px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.about-me h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.about-me p {
+    font-size: 16px;
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+/*COLOURS AND THEMES:*/
+body {
+    background-color: #100900;
+}
+h1, h2 {
+    color: #400106;
+    font-size: 30px;
+    text-shadow:rgb(0, 5, 0) 0px 2px 4px;
+}
+ h3 {
+    color: #D9B991;
+}
+p{
+    color: rgb(172, 156, 130);
+}
+h1,h2, .home p {
+    transition: transform 0.3s;
+    
+    }
+h1:hover,h2:hover, .home p:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+.btn,.live-btn {
+    transition: 0.3s ease;
+}
+.btn:hover,.live-btn:hover {
+    transform: scale(1.05) translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+/*home*/
+.home h1 {
+    color:#400106;
+}
+.btn {
+    background: linear-gradient(to right, #400106, #260101);
+    color:#D9B991;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: linear-gradient(to right, #260101, #400106);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05) translateY(1px);
+}
+.profile-pic {
+    object-fit: cover;
+    box-shadow: 0px 10px 0px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05) translateX(-5px);
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.7);
+}
+
+
+/*projects*/
+
+.project-card {
+    background-color: #402814;
+    border: solid #D9B991;
+    border-width: 1px;
+    transition: 0.3s;
+}
+.project-card:hover {
+    background-color: #3e0106;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05) translateY(-5px);
+}
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: solid #D9B991;
+}
+.live-btn {
+    background: linear-gradient(to right, #400106, #260101);
+    color: #D9B991;
+}
+.live-btn:hover {
+    background-color: #260101;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.skill-card {
+    background-color: #402814;
+    border: solid #D9B991;
+    border-width: 1px;
+     transition: 0.3s;
+}
+.skill-card:hover {
+    background-color: #3e0106;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05) translateY(-5px);
+}
+/*about me*/
+.about h2 {
+    margin-bottom: 90px;
+}
+.about-me {
+    background-color: #402814;
+    border: solid #D9B991;
+    border-width: 1px;
+    transition: 0.3s;
+
+}
+.about-me:hover {
+    background-color: #3e0106;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05) translateY(-5px);
+}
+#quote {
+    font-family: "Brush Script MT", cursive;
+    font-size: 35px;
+    color: #D9B991;
+    text-align: center;
 }
