@@ -17,3 +17,9 @@
  - added picture in the #projects
  - fixed bugs
  - added links to #projects
+
+5 hr 29 mins - 6 hr 25 mins:
+- forgot to add #about-me page so added one
+- customized it (layout and colours anf effects)
+- added description to about me page
+- added #contact icons 
