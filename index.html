@@ -9,48 +9,103 @@
 
 <body>
 
-<section class="home" id="home">
+<section class="home">
     <div class="home-content">
-        <img src="profile.jpg"  class="profile-pic">
-        <h1>Hello, I'm John Doe</h1>
-        <p>welcome to my portfolio!</p>
-        <a href="#projects" class="btn">View My Work</a>
+        <div class="contents">
+        <h1>Hello there! I'm Minha</h1>
+        <p>A student exploring the world of web development</p>
+        <a href="#about-me-info" class="btn">Know more about me</a>
+    </div>
+    <img src="profile.jpeg" alt="Profile Picture" class="profile-pic">
     </div>
 </section>
 
-    <section class="projects">
+<section class="about" id="about-me-info" >
+    <h2>About me</h2>
+    <div class="about-cards">
+        <div class="about-me">
+            <h3> Who I am </h3>
+            <p>I'm a curious highschool student who's constantly exploring new ideas. I'm still on the journey of discovering my path, but Im driven by strong interest is creativity,technology and growth.</P>
+        </div>        
+        <div class="about-me">
+            <h3> What I like </h3>
+            <p>I enjoy creative and analytical prusuits,from drawing and painting to coding and exploring new ideas. Outside of that, I like staying active through sports like badminton and spending time learn things that genuinely interests me.</P>
+        </div>        
+        <div class="about-me">
+            <h3> My skills </h3>
+            <p>I work mostly with HTML,CSS and JAVASCRIPT, building and experimenting with web projects. While I'm still learning, I'm actively exploring new areas like backend and game development to expand my skills.</P>
+        </div>        
+    </div>
+</section>
+    <section class="projects" id="project-sct">
         <h2>My Projects</h2>
-        <div class="project-list">
-            <div class="project-item">
-                <h3>Project 1</h3>
-                <p>A brief description of project 1.</p>
+        <div class="project-item">
+            <div class="project-card">
+                <h3>Starlight Kingdom</h3>
+                <img src="project1.png" alt="Project 1" class="project-image">
+                <p>This was my first ever game that I built for a monthly challenge on codedex. It still need a lot of improvement, and I do plan on improving it!</p>
+                <a href="https://mosammadreshma.github.io/starlight-kingdom/" target="_blank"><button class="live-btn">Live Demo</button></a>
             </div>
-            <div class="project-item">
-                <h3>Project 2</h3>
-                <p>A brief description of project 2.</p>
+
+            <div class="project-card">
+                <h3>Tetris</h3>
+                <img src="project2.png" alt="Project 2" class="project-image">
+                <p>I built this as a practice projects since it had been so long I'd built something. I think it is decent for a beginner.</p>
+                <a href="https://mosammadreshma.github.io/TETRIS/" target="_blank"><button class="live-btn">Live Demo</button></a>
             </div>
-            <div class="project-item">
-                <h3>Project 3</h3>
-                <p>A brief description of project 3.</p>
+
+            <div class="project-card">
+                <h3>Timeless pomodoro</h3>
+                <img src="project3.png" alt="Project 3" class="project-image">
+                <p>This was my first ever project. I remember how proud I was of myself and how I showed it to my friends and family.</p>
+                <a href="https://mosammadreshma.github.io/timeless-pomodoro/" target="_blank"><button class="live-btn">Live Demo</button></a>
             </div>
         </div>
     </section>
 
     <section class="skills">
         <h2>My Skills</h2>
-        <div id="skills">
-            <h2>html</h2>
-            <h2>css</h2>
-            <h2>javascript</h2>
-            <h2>python</h2>
+        <div  class="skills-set">
+            <div class="skill-card">
+                <h3>html</h3>
+                <img src="html.jpeg" alt="HTML Icon" class="skill-icon">
+                <p>Comfortable structuring clean websites with a solid understanding of layout organization.</p>
+            </div>
+            <div class="skill-card">
+                <h3>css</h3>
+                <img src="css.jpeg" alt="CSS Icon" class="skill-icon">
+                <p>I am able to style responsive layouts and am currently improving in advanced styling and layout.</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill">javascript</h3>
+                <img src="js.png" alt="JavaScript Icon" class="skill-icon">
+                <p>I am currently learning and imrpoving in basic interactivity.</p>
+            </div>
+          <div class="skill-card">
+            <h3>python</h3>
+            <img src="python.jpeg"  alt="pyhton icon" class="skill-icon">
+            <p>I am familiar with the basic programming concepts and syntax, with ongoing exploration into problem-solving and applications.</p>
         </div>
+    </div>
     </section>
 
     <section class="contact">
-        <h2>Contact Me</h2>
-        <div>
-        <button><a href="mailto:mosammadreshma121@gmail.com" class="btn"><img src="email-icon.png" alt="Email"></a></button>
-        <button><a href="https://github.com/mosammadreshma" class="btn"><img src="github-icon.png" alt="GitHub"></a></button>
-        <button><a href="https://www.codedex.io/@mosammadreshma" class="btn"><img src="codedex-icon.png" alt="Codedex"></a></button>
-        </div>
+     <h2>Find Me</h2>
+     <div class="contact-info">
+        <a href="https://github.com/MosammadReshma" target="_blank">
+      <img src="github.jpeg" alt="github" class="contact-image">
+        </a>
+        <a href="https://www.codedex.io/@minaurae" target="_blank">
+      <img src="codedex.jpeg" alt="codedex" class="contact-image">
+        </a>
+        <a href="mailto: mosammadreshma6@gmail.com" target="_blank">
+      <img src="email.jpeg" alt="email" class="contact-image">
+      </a>
+     </div>
     </section>
+
+    <section id="quote">
+     <p>Everything you see here was once just a skill I thought wasn't for me. But curiousity got the best of me... </p>
+
+</body>
+</html>
